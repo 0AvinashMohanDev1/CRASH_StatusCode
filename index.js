@@ -5,11 +5,14 @@ const { ConnectDB } = require('./config/db');
 const userRouter = require("./routes/user.routes");
 const {logRequests}=require("./Middleswares/access.middleware")
 const { redisClient } = require("./config/redis");
-
+const swaggerConfig = require('./config/swagger');
+const limiter=require("./Middleswares/ratelimit.middleware");
 app.use(express.json()); // Middleware for parsing JSON
 
-
+app.use(limiter);
 app.use(logRequests);
+// Use Swagger documentation
+swaggerConfig(app);
 
 // Setup routers
 app.use("/users", userRouter); // Use router for specific path to organize routes better
