@@ -108,8 +108,8 @@ apiSecret=your_cloudinary_api_secret
 
 ## Author
 
-Your Name
-- GitHub: [Your GitHub Profile](https://github.com/0AvinashMohanDev1)
+Avinash Mohan Dev
+- GitHub: [0AvinashMohanDev1](https://github.com/0AvinashMohanDev1)
 
 ---
 
