@@ -112,5 +112,3 @@ Avinash Mohan Dev
 - GitHub: [0AvinashMohanDev1](https://github.com/0AvinashMohanDev1)
 
 ---
-
-Feel free to adjust the environment variables section as per your specific configuration. This README.md provides a basic structure that you can expand upon with more detailed information about your API and setup.
